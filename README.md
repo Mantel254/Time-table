@@ -23,7 +23,10 @@ This project is a Python-based timetable processing tool that reads an Excel fil
 - reportlab
 - openpyxl
   ## 📄 Example Output
-In the home page, the file gets uploaded.
+- From a table like.
+![table](pictures/excel.png)
+  
+- In the home page of the website, the file gets uploaded.
 ![Home page](pictures/screen1.png)
 - After clicking upload, the application will process the courses in the table and suggest them as a drop down menu in the second page.
 ![Second page](pictures/screen2.png)
