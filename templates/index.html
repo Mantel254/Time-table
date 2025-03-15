@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Short Timetable Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #74ebd5, #acb6e5);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .card {
+            border: none;
+            border-radius: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            font-weight: bold;
+            color: #333;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+
+        .form-select, .form-control {
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card p-5">
+            <h1 class="text-center mb-4">Short Timetable Generator</h1>
+
+            {% if step == 1 %}
+            <!-- Step 1: File upload -->
+            <form method="POST" enctype="multipart/form-data">
+                <div class="mb-4">
+                    <label class="form-label"><strong>Upload Excel File:</strong></label>
+                    <input type="file" name="file" accept=".xlsx" required class="form-control">
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Upload File</button>
+                </div>
+            </form>
+            {% endif %}
+
+            {% if step == 2 %}
+            <!-- Step 2: Course selection -->
+            <form method="POST">
+                <div class="mb-4">
+                    <label class="form-label"><strong>Select Course:</strong></label>
+                    <select name="course" required class="form-select">
+                        <option value="" disabled selected>-- Choose a course --</option>
+                        {% for course in courses %}
+                        <option value="{{ course }}">{{ course }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg">Generate PDF</button>
+                </div>
+            </form>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
