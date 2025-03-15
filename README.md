@@ -23,7 +23,7 @@ This project is a Python-based timetable processing tool that reads an Excel fil
 - reportlab
 - openpyxl
   ## 📄 Example Output
-In the home page.
+In the home page, the file gets uploaded.
 ![Home page](pictures/screen1.png)
 
 🤝 Contributing
