@@ -25,7 +25,8 @@ This project is a Python-based timetable processing tool that reads an Excel fil
   ## 📄 Example Output
 In the home page, the file gets uploaded.
 ![Home page](pictures/screen1.png)
-
+After clicking upload, the application will process the courses in the table and suggest them as a drop down menu in the second page.
+![Second page](pictures/screen2.png)
 🤝 Contributing
 Feel free to fork and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
