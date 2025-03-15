@@ -23,7 +23,8 @@ This project is a Python-based timetable processing tool that reads an Excel fil
 - reportlab
 - openpyxl
   ## 📄 Example Output
-Generated timetables are saved in the /uploads folder in PDF format.
+In the home page.
+![Home page](assets/timetable_sample.png)
 
 🤝 Contributing
 Feel free to fork and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
