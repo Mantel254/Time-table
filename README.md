@@ -25,10 +25,12 @@ This project is a Python-based timetable processing tool that reads an Excel fil
   ## 📄 Example Output
 In the home page, the file gets uploaded.
 ![Home page](pictures/screen1.png)
-After clicking upload, the application will process the courses in the table and suggest them as a drop down menu in the second page.
+- After clicking upload, the application will process the courses in the table and suggest them as a drop down menu in the second page.
 ![Second page](pictures/screen2.png)
-🤝 Contributing
-Feel free to fork and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
 
-📧 Contact
-For any questions or suggestions, reach out at: your-email@example.com
+- After clicking generate pdf, the application will simplify the timetable into a simplified version based on the course you choose.
+- Below is an output of timetable when the course BTAP Y2S2 wa choosen.
+![output](pictures/output.png)
+
+## 📧 Contact
+For any questions or suggestions, reach out at: ![Email](e4104850@gmail.com) or  ![Linkedin](https://www.linkedin.com/in/emmanuel-cherutich-14913a2b9/)
