@@ -24,7 +24,7 @@ This project is a Python-based timetable processing tool that reads an Excel fil
 - openpyxl
   ## 📄 Example Output
 In the home page.
-![Home page](assets/timetable_sample.png)
+![Home page](pictures/screen1.png)
 
 🤝 Contributing
 Feel free to fork and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
