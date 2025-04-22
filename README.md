@@ -35,5 +35,3 @@ This project is a Python-based timetable processing tool that reads an Excel fil
 - Below is an output of timetable when the course BTAP Y2S2 wa choosen.
 ![output](pictures/output.png)
 
-## 📧 Contact
-For any questions or suggestions, reach out at: ![Email](e4104850@gmail.com) or  ![Linkedin](https://www.linkedin.com/in/emmanuel-cherutich-14913a2b9/)
